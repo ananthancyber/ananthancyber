@@ -35,13 +35,7 @@ Topics covered:
 
 ---
 
-## Featured Projects
-
-🚧 **Projects Coming Soon**
-
-I am currently developing cybersecurity-focused projects that will be published here as they are completed.
-
-Future project categories:
+##  Projects
 
 * Security Automation
 * Network Security
@@ -86,8 +80,7 @@ Future project categories:
 
 ## Certifications
 
-* IBM Introduction to Cybersecurity Essentials
-* *(Add future certifications here)*
+* [IBM Introduction to Cybersecurity Essentials](https://www.coursera.org/account/accomplishments/verify/TZXNI5EX7O71?utm_source=mobile&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course)
 
 ---
 
