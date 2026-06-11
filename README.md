@@ -18,8 +18,7 @@ I actively document my hands-on learning through Hack The Box labs, security cha
 
 ### 📚 Lab Repository
 
-🔗 **Cybersecurity Lab Notes**
-Repository: [Insert Repository Link]
+ * [Hack The Box](https://github.com/ananthancyber/Hack-the-box-lab-walthrough)
 
 Topics covered:
 
@@ -78,12 +77,10 @@ Future project categories:
 ## Currently Learning
 
 * Penetration Testing
-* Vulnerability Assessment
 * Network Security
 * Security Monitoring
 * Incident Response
 * Linux Administration
-* Purple Team Concepts
 
 ---
 
