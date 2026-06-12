@@ -18,7 +18,7 @@ I actively document my hands-on learning through Hack The Box labs, security cha
 
 ### 📚 Lab Repository
 
- * [Hack The Box](https://github.com/ananthancyber/Hack-the-box-lab-walthrough)
+ * [Hack The Box](https://github.com/ananthancyber/Hack-the-box-lab)
 
 Topics covered:
 
