@@ -37,7 +37,7 @@ Topics covered:
 
 ##  Projects
 
-* [Soc home lab](https://github.com/ananthancyber/SOC-Home-Lab)
+* [SOC - Home Lab](https://github.com/ananthancyber/SOC-Home-Lab)
 * Network Security
 * Vulnerability Assessment
 * Python Security Tools
