@@ -37,7 +37,7 @@ Topics covered:
 
 ##  Projects
 
-* Security Automation
+* [Soc home lab}()
 * Network Security
 * Vulnerability Assessment
 * Python Security Tools
