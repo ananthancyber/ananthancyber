@@ -78,7 +78,9 @@ Topics covered:
 ## Certifications
 
 * [IBM Introduction to Cybersecurity Essentials](https://www.coursera.org/account/accomplishments/verify/TZXNI5EX7O71?utm_source=mobile&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course)
-* [Try Hack Me - Pre security completion certificate](file:///C:/Users/anant/Downloads/Telegram%20Desktop/THM-D21XSNFAOU.pdf)
+* [Try Hack Me- Presecurity learning Path Certificate ](file:///C:/Users/anant/Downloads/Telegram%20Desktop/THM-D21XSNFAOU.pdf)
+
+  
 ---
 
 ## Connect With Me
