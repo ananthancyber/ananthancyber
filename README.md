@@ -38,10 +38,7 @@ Topics covered:
 ##  Projects
 
 * [SOC - Home Lab](https://github.com/ananthancyber/SOC-Home-Lab)
-* Network Security
-* Vulnerability Assessment
-* Python Security Tools
-* Detection & Monitoring Solutions
+* kali - home lab set up
 
 ---
 
