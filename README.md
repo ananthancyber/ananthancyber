@@ -38,7 +38,7 @@ Topics covered:
 ##  Projects
 
 * [SOC - Home Lab](https://github.com/ananthancyber/SOC-Home-Lab)
-* kali - home lab set up
+* [wazuh-blue-team-detection-lab]()
 
 ---
 
