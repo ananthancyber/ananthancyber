@@ -38,7 +38,7 @@ Topics covered:
 ##  Projects
 
 * [SOC - Home Lab](https://github.com/ananthancyber/SOC-Home-Lab)
-* [wazuh-blue-team-detection-lab]()
+* [wazuh-blue-team-detection-lab](https://github.com/ananthancyber/wazuh-blue-team-detection-lab)
 
 ---
 
