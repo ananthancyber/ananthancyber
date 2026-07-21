@@ -37,9 +37,8 @@ Topics covered:
 
 ##  Projects
 
-* [SOC - Home Lab](https://github.com/ananthancyber/SOC-Home-Lab)
-* [wazuh-blue-team-detection-lab](https://github.com/ananthancyber/wazuh-blue-team-detection-lab)
-
+- [SOC Home Lab](https://github.com/ananthancyber/SOC-Home-Lab) — Linux log & SSH investigation using journalctl and auth.log, with Nmap/Wireshark network analysis
+- [Wazuh SIEM Blue Team Lab](https://github.com/ananthancyber/wazuh-blue-team-detection-lab) — Docker-deployed Wazuh SIEM/XDR stack with agent registration and File Integrity Monitoring detection
 ---
 
 ## Tech Stack & Tools
