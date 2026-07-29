@@ -39,11 +39,9 @@ Topics covered:
 
 ## 🛠️ Projects
 
-- [🛡️ Wazuh Blue Team Detection Lab](https://github.com/ananthancyber/wazuh-blue-team-detection-lab) — Built a Docker-based Wazuh SIEM/XDR home lab on Ubuntu with Kali attack simulation, agent enrollment, custom detection rules, File Integrity Monitoring (FIM), SSH authentication monitoring, MITRE ATT&CK mapping, and security alert investigation through realistic Blue Team scenarios.
+- [Wazuh Blue Team Detection Lab](https://github.com/ananthancyber/wazuh-blue-team-detection-lab) — Deployed a Dockerized Wazuh 4.14.6 SIEM/XDR stack and built a full detection engineering pipeline: custom and correlation rules (`if_sid`, `if_matched_sid`, frequency/timeframe), File Integrity Monitoring, and an Active Response workflow validated end-to-end against SSH and filesystem attacks simulated from a Kali Linux host. Mapped detections to MITRE ATT&CK and documented every phase across 9 investigation reports.
 
-- [🤖 AI SOC Log Triage Assistant](https://github.com/ananthancyber/AI-SOC-Log-Triage-Assistant) *(In Progress)* — Developing an AI-assisted SOC analyst that uses RAG (FAISS + Ollama) to analyze Wazuh alerts, classify severity, map MITRE ATT&CK techniques, summarize incidents, and recommend investigation and remediation steps through a Streamlit interface.
-
-- [SOC Home Lab](https://github.com/ananthancyber/SOC-Home-Lab) — Linux log & SSH investigation using journalctl and auth.log, with Nmap/Wireshark network analysis
+- [AI SOC Log Triage Assistant](https://github.com/ananthancyber/AI-SOC-Log-Triage-Assistant) *(early-stage, in progress)* — Prototyped a privacy-first alert triage tool that sends Wazuh JSON alerts to a locally-hosted LLM (Ollama, Qwen2.5:3B) via engineered prompts to auto-generate incident summaries, severity ratings, and MITRE ATT&CK technique suggestions with zero cloud data exposure. Next phase: retrieval-augmented generation (FAISS) and a Streamlit front-end.
 
 ---
 
