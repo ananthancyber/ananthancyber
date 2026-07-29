@@ -12,7 +12,7 @@ Currently, I am building a strong foundation in penetration testing, network sec
 
 ---
 
-## Cybersecurity Lab Notes
+## Cybersecurity Notes
 
 I actively document my hands-on learning through Hack The Box labs, security challenges, and research notes.
 
@@ -32,10 +32,14 @@ Topics covered:
 * Lessons Learned & Key Takeaways
 
 > Detailed write-ups, methodologies, and notes are maintained in a dedicated repository for better organization and continuous learning.
+## 📖 Technical Notes
+
+Alongside my projects, I maintain a comprehensive knowledge base containing structured cybersecurity notes, lab documentation, learning roadmaps, and technical references.
+
+🔗 **Cybersecurity Knowledge Base [(Notion)](https://app.notion.com/p/Cybersecurity-Foundation-3449d19d341d80fcaeb0d7e0875b9fb4?source=copy_link)
 
 ---
 
-##  Projects
 
 ## 🛠️ Projects
 
