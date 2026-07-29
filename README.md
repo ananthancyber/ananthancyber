@@ -37,8 +37,14 @@ Topics covered:
 
 ##  Projects
 
+## 🛠️ Projects
+
+- [🛡️ Wazuh Blue Team Detection Lab](https://github.com/ananthancyber/wazuh-blue-team-detection-lab) — Built a Docker-based Wazuh SIEM/XDR home lab on Ubuntu with Kali attack simulation, agent enrollment, custom detection rules, File Integrity Monitoring (FIM), SSH authentication monitoring, MITRE ATT&CK mapping, and security alert investigation through realistic Blue Team scenarios.
+
+- [🤖 AI SOC Log Triage Assistant](https://github.com/ananthancyber/AI-SOC-Log-Triage-Assistant) *(In Progress)* — Developing an AI-assisted SOC analyst that uses RAG (FAISS + Ollama) to analyze Wazuh alerts, classify severity, map MITRE ATT&CK techniques, summarize incidents, and recommend investigation and remediation steps through a Streamlit interface.
+
 - [SOC Home Lab](https://github.com/ananthancyber/SOC-Home-Lab) — Linux log & SSH investigation using journalctl and auth.log, with Nmap/Wireshark network analysis
-- [Wazuh SIEM Blue Team Lab](https://github.com/ananthancyber/wazuh-blue-team-detection-lab) — Docker-deployed Wazuh SIEM/XDR stack with agent registration and File Integrity Monitoring detection
+
 ---
 
 ## Tech Stack & Tools
