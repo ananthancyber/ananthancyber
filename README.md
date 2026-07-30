@@ -49,6 +49,10 @@ Containerized Wazuh 4.14.6 SIEM/XDR stack (Manager, Indexer, Dashboard) deployed
 **Stack:** Docker, Docker Compose, Wazuh 4.14.6, Kali Linux, VMware Workstation
 **Status:** Active development
 
+## Architecture
+
+![Wazuh Lab Architecture](./wazuh-lab-architecture.svg)
+
 ### [SOC Home Lab — Linux Log & SSH Investigation](https://github.com/ananthancyber/SOC-Home-Lab)
 Two-VM lab (Ubuntu target, Kali Linux attacker) over a NAT network for log-based investigation practice.
 
