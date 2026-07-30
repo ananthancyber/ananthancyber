@@ -1,109 +1,92 @@
-# Hi, I'm Ananthan 👋
+# Ananthan D
 
-> Cybersecurity Student | Offensive & Defensive Security | Continuous Learner
+**Blue Team / SOC Analyst (Entry-Level) — SIEM Deployment & Detection Engineering**
 
----
-
-## About Me
-
-I am a cybersecurity student passionate about understanding how systems are attacked, defended, and secured. My learning focuses on both offensive and defensive security through hands-on labs, practical projects, and continuous skill development.
-
-Currently, I am building a strong foundation in penetration testing, network security, security operations, and threat detection while documenting my learning journey through lab notes and technical write-ups.
+B.Tech Information Technology (2026) building hands-on security engineering skills through self-directed home labs rather than coursework alone. Focused on SIEM deployment, detection rule development, and log-based investigation.
 
 ---
 
-## Cybersecurity Notes
+## About
 
-I actively document my hands-on learning through Hack The Box labs, security challenges, and research notes.
-
-### 📚 Lab Repository
-
- * [Hack The Box](https://github.com/ananthancyber/Hack-the-box-lab)
-
-Topics covered:
-
-* Hack The Box Walkthroughs
-* Enumeration Methodologies
-* Privilege Escalation Techniques
-* Web Application Testing
-* Network Reconnaissance
-* Linux & Windows Fundamentals
-* Security Tools Usage
-* Lessons Learned & Key Takeaways
-
-> Detailed write-ups, methodologies, and notes are maintained in a dedicated repository for better organization and continuous learning.
-## 📖 Technical Notes
-
-Alongside my projects, I maintain a comprehensive knowledge base containing structured cybersecurity notes, lab documentation, learning roadmaps, and technical references.
-
-🔗 **Cybersecurity Knowledge Base [(Notion)](https://app.notion.com/p/Cybersecurity-Foundation-3449d19d341d80fcaeb0d7e0875b9fb4?source=copy_link)
+- **Education:** B.Tech, Information Technology — University College of Engineering, Kariavattom (Nov 2022 – Jul 2026)
+- **Current focus:** Wazuh SIEM/XDR deployment, custom detection rule development, log correlation, MITRE ATT&CK mapping
+- **Target roles:** SOC Analyst L1, Blue Team Analyst, Cybersecurity Analyst
+- **Approach:** Learn by building — every lab below is documented as a structured investigation report (objective, methodology, evidence, findings), not just a tutorial follow-along.
 
 ---
 
+## Technical Skills
 
-## 🛠️ Projects
-
-- [Wazuh Blue Team Detection Lab](https://github.com/ananthancyber/wazuh-blue-team-detection-lab) — Deployed a Dockerized Wazuh 4.14.6 SIEM/XDR stack and built a full detection engineering pipeline: custom and correlation rules (`if_sid`, `if_matched_sid`, frequency/timeframe), File Integrity Monitoring, and an Active Response workflow validated end-to-end against SSH and filesystem attacks simulated from a Kali Linux host. Mapped detections to MITRE ATT&CK and documented every phase across 9 investigation reports.
-
-- [AI SOC Log Triage Assistant](https://github.com/ananthancyber/AI-SOC-Log-Triage-Assistant) *(early-stage, in progress)* — Prototyped a privacy-first alert triage tool that sends Wazuh JSON alerts to a locally-hosted LLM (Ollama, Qwen2.5:3B) via engineered prompts to auto-generate incident summaries, severity ratings, and MITRE ATT&CK technique suggestions with zero cloud data exposure. Next phase: retrieval-augmented generation (FAISS) and a Streamlit front-end.
-
----
-
-## Tech Stack & Tools
-
-### Offensive Security
-
-![Kali Linux](https://img.shields.io/badge/Kali_Linux-268BEE?style=for-the-badge\&logo=kalilinux\&logoColor=white)
-![Nmap](https://img.shields.io/badge/Nmap-00457C?style=for-the-badge)
-![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=for-the-badge)
-![Metasploit](https://img.shields.io/badge/Metasploit-2596CD?style=for-the-badge)
-
-### Defensive Security
-
-![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge\&logo=wireshark\&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge\&logo=linux\&logoColor=black)
-![Networking](https://img.shields.io/badge/Networking-00599C?style=for-the-badge)
-![SOC](https://img.shields.io/badge/SOC-1F6FEB?style=for-the-badge)
-
-### Programming & Scripting
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge\&logo=python\&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-121011?style=for-the-badge\&logo=gnubash\&logoColor=white)
-
----
-
-## Currently Learning
-
-* Penetration Testing
-* Network Security
-* Security Monitoring
-* Incident Response
-* Linux Administration
+| Category | Skills |
+|---|---|
+| **SIEM / Detection** | Wazuh SIEM/XDR, custom rule development (`local_rules.xml`), correlation rules (`if_matched_sid`, frequency/timeframe), File Integrity Monitoring, MITRE ATT&CK mapping |
+| **Security Tools** | Nmap, Wireshark, Burp Suite *(via PortSwigger Web Security Academy)* |
+| **Operating Systems** | Linux (Ubuntu, Kali Linux), Windows fundamentals |
+| **Networking** | TCP/IP, DNS, packet analysis, network reconnaissance |
+| **Programming** | Python, Bash, C |
+| **Infrastructure** | Docker, Docker Compose, VMware Workstation, Git |
 
 ---
 
 ## Certifications
 
-* [IBM Introduction to Cybersecurity Essentials](https://www.coursera.org/account/accomplishments/verify/TZXNI5EX7O71?utm_source=mobile&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course)
-* [Try Hack Me- Presecurity learning Path Certificate ](file:///C:/Users/anant/Downloads/Telegram%20Desktop/THM-D21XSNFAOU.pdf)
-
-  
----
-
-## Connect With Me
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Ananthan_D-blue?style=for-the-badge\&logo=linkedin)](https://www.linkedin.com/in/ananthan-d-ab295321b)
+- **Microsoft** — Cybersecurity Threat Vectors and Mitigation (Coursera, July 2026)
+- **IBM** — Introduction to Cybersecurity Essentials
+- **TryHackMe** — Pre Security Learning Path
 
 ---
 
-> *"Stay curious. Keep learning. Build. Break. Defend."*
+## Projects
 
-<!--
-Future Additions:
-- Certifications Section
-- Security Projects
-- TryHackMe Progress
-- CTF Writeups
-- Blog Articles
--->
+### [Wazuh Blue Team Detection Lab](https://github.com/ananthancyber/wazuh-blue-team-detection-lab)
+Containerized Wazuh 4.14.6 SIEM/XDR stack (Manager, Indexer, Dashboard) deployed via Docker Compose with TLS and agent connectivity validation.
 
+- Custom detection rules in `local_rules.xml`, including a correlation rule (`if_matched_sid`, frequency/timeframe) to cut alert volume from repeated login events
+- File Integrity Monitoring with a structured report on rule IDs 550/553/554 and checksum change analysis
+- Active Response framework investigated and manually validated; documented findings on why automatic triggering is currently blocked by a log-collection gap
+- MITRE ATT&CK coverage matrix mapping detections to techniques only where a genuine link exists
+
+**Stack:** Docker, Docker Compose, Wazuh 4.14.6, Kali Linux, VMware Workstation
+**Status:** Active development
+
+### [SOC Home Lab — Linux Log & SSH Investigation](https://github.com/ananthancyber/SOC-Home-Lab)
+Two-VM lab (Ubuntu target, Kali Linux attacker) over a NAT network for log-based investigation practice.
+
+- Traced SSH authentication activity using `journalctl`, documenting login patterns with commands and screenshots
+- Ran host discovery and port scans with Nmap; captured protocol-level traffic with Wireshark
+
+**Stack:** VMware Workstation, Ubuntu, Kali Linux, Nmap, Wireshark, journalctl
+**Status:** Complete
+
+### Network Port Scanner
+TCP port scanner written from scratch in Python using raw socket programming, validated against Nmap output on the same lab targets for accuracy.
+
+**Stack:** Python, socket programming, TCP/IP
+**Status:** Complete
+
+---
+
+## Lab Walkthroughs
+
+- **[Hack The Box](https://github.com/ananthancyber/Hack-the-box-lab)** — enumeration methodologies, initial access, service enumeration, file transfer techniques
+- **PortSwigger Web Security Academy** — OWASP Top 10 labs, including injection and access control vulnerabilities
+
+---
+
+## Currently Building
+
+- Closing the log-collection gap blocking Active Response automation in the Wazuh lab
+- Expanding MITRE ATT&CK coverage with additional correlation rules
+- Planning a VAPT pipeline that reuses log data generated by the Wazuh lab
+
+---
+
+## Technical Notes
+
+Detailed lab methodology and investigation write-ups: [Notion — add link]
+
+---
+
+## Connect
+
+[LinkedIn](https://www.linkedin.com/in/ananthan-d-ab295321b) · [GitHub](https://github.com/ananthancyber) · [Email](mailto:ananthan.cyber@gmail.com)
