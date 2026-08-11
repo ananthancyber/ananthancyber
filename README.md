@@ -75,6 +75,8 @@ Self-built enterprise Active Directory lab (Windows Server 2022 DC + domain-join
 
 **Stack:** Windows Server 2022, Active Directory Domain Services, PowerShell, VMware Workstation, (planned: Sysmon, Wazuh, Kali Linux)
 **Status:** In Progress — domain/identity foundation complete; attack simulation and detection engineering not yet implemented
+
+---
 ---
 
 ## Lab Walkthroughs
