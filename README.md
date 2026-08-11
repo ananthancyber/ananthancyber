@@ -64,16 +64,17 @@ AI-assisted triage tool for Wazuh SIEM alerts, using local Retrieval-Augmented G
 **Status:** Complete, functional end-to-end pipeline (v1.0)
 
 ---
+# [Active Directory Attack & Detection Lab](https://github.com/ananthancyber/Project-03-AD-Attack-Detection-Lab)
+Self-built enterprise Active Directory lab (Windows Server 2022 DC + domain-joined client) built as the foundation for controlled attack simulation and Wazuh-based detection engineering. Every phase documented day-by-day with commands, PowerShell verification, and screenshot evidence.
 
-### [SOC Home Lab — Linux Log & SSH Investigation](https://github.com/ananthancyber/SOC-Home-Lab)
-Two-VM lab (Ubuntu target, Kali Linux attacker) over a NAT network for log-based investigation practice.
+- Windows Server 2022 promoted to Domain Controller for a new forest (`corp.local`), with AD-integrated DNS verified via `Get-ADDomainController` and `Get-DnsServerZone`
+- Custom OU structure (`Lab-Users`, `Lab-Groups`, `Lab-Workstations`, `Lab-Servers`) separating lab objects from default AD containers
+- Domain users, security groups, and group membership created and independently re-verified with `Get-ADUser` / `Get-ADGroupMember`
+- Windows 10 client joined to the domain and confirmed via `Get-ADComputer`
+- 33 screenshots across 2 documented phases, following a consistent evidence-naming convention
 
-- Traced SSH authentication activity using `journalctl`, documenting login patterns with commands and screenshots
-- Ran host discovery and port scans with Nmap; captured protocol-level traffic with Wireshark
-
-**Stack:** VMware Workstation, Ubuntu, Kali Linux, Nmap, Wireshark, journalctl
-**Status:** Complete
-
+**Stack:** Windows Server 2022, Active Directory Domain Services, PowerShell, VMware Workstation, (planned: Sysmon, Wazuh, Kali Linux)
+**Status:** In Progress — domain/identity foundation complete; attack simulation and detection engineering not yet implemented
 ---
 
 ## Lab Walkthroughs
