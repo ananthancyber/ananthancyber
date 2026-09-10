@@ -66,21 +66,20 @@ AI-assisted triage tool for Wazuh SIEM alerts, using local Retrieval-Augmented G
 ---
 # [Active Directory Attack & Detection Lab](https://github.com/ananthancyber/Project-03-AD-Attack-Detection-Lab)
 
-Self-built enterprise Active Directory lab (Windows Server 2022 DC + domain-joined client + Kali attack host) running three controlled credential-access simulations — Kerberoasting, AS-REP Roasting, and unexpected-source NTLM authentication — through detection, correlation, and a written SOC investigation for each. Every phase documented day-by-day with commands, PowerShell verification, and screenshot evidence.
 
-- Windows Server 2022 promoted to Domain Controller for a new forest (`corp.local`), with AD-integrated DNS, custom OU structure, users, groups, and a domain-joined `WIN10-CLIENT`, independently re-verified with `Get-ADUser`, `Get-ADGroupMember`, `Get-ADComputer`
-- Sysmon deployed and `WIN10-CLIENT` enrolled as Wazuh agent `002`; endpoint-to-dashboard process telemetry validated — Wazuh's role is scoped to Sysmon/process telemetry only and is **not** part of the detection path for any attack scenario below, which query the Windows Security log directly via `Get-WinEvent`
-- **Kerberoasting (Day 06)** — `svc_sql` SPN-backed account targeted from Kali via Impacket `GetUserSPNs`; detected via Event `4769` + RC4 (`0x17`), baselined against 50 sampled tickets (49 AES-256 vs. 1 RC4)
-- **Unexpected-source NTLM (Day 07)** — `pt_test` account baselined from `WIN10-CLIENT`, then reused from Kali over SMB; detected by correlating endpoint Event `4624` (Logon Type `3`) with DC Event `4776`
-- **AS-REP Roasting (Day 08)** — `asrep_test` account configured with `DoesNotRequirePreAuth`; detected behaviorally on Event `4768` where `Pre-Authentication Type = 0`, baselined against 9 successful logons (7 normal Type `2`, 2 matching the attack)
-- Each scenario ships a separate attack narrative, detection specification, and SOC investigation report, closed with a written analyst verdict and MITRE ATT&CK mapping
-- 150 screenshots across 9 documented days, consistent evidence-naming convention
+**A 12-day, end-to-end Active Directory security lab — attack simulation, Windows telemetry, Wazuh detection, and SOC investigation, built solo in an isolated VMware environment.**
 
-| | |
-|---|---|
-| **Stack** | Windows Server 2022 · Active Directory Domain Services · PowerShell · Sysmon · Wazuh 4.14.6 · Kali Linux · Impacket · VMware Workstation |
-| **MITRE ATT&CK** | `T1558.003` `T1558.004` `T1078` `T1021.002` |
-| **Status** | Complete — 3 of 3 planned attack/detection/investigation cycles closed |
+I built a functioning AD domain (Windows Server 2022 DC + Windows 10 endpoint), wired it into a Wazuh SIEM with Sysmon telemetry, then simulated seven real credential-access and lateral-movement techniques from a Kali Linux attacker box — Kerberoasting, AS-REP Roasting, Pass-the-Hash, DCSync, unexpected-source NTLM authentication, SMB lateral movement, and a BloodHound-driven privilege-escalation path. For each one I analyzed the Windows Security Event telemetry it generated (`4624`, `4662`, `4768`, `4769`, `4776`), built and validated detection logic (including Wazuh rules cross-checked with `wazuh-logtest`), mapped it to MITRE ATT&CK, and wrote it up as a SOC-style investigation report with evidence.
+
+For the BloodHound scenario, I also intentionally created a privilege-escalation path through nested group membership (`BH_ENUM → Helpdesk-Tier1 → IT-Admins → Domain Admins`), then removed the misconfiguration and re-validated in BloodHound that the path was gone — attack and remediation, not just attack.
+
+**Stack:** Active Directory · Windows Server 2022 · Sysmon · Wazuh SIEM · Kali Linux · BloodHound · MITRE ATT&CK
+
+**Techniques covered:** T1558.003, T1558.004, T1550.002, T1003.006, T1078, T1021.002, T1069.002, T1087.002
+
+**What it demonstrates:** attacker-to-defender reasoning across the full chain — attack execution → telemetry generation → detection logic → correlation → SOC investigation → evidence-backed reporting — not just running a tool and screenshotting the output.
+
+[View the full lab on GitHub →](https://github.com/ananthancyber/Project-03-AD-Attack-Detection-Lab)
 
 ---
 
