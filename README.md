@@ -65,22 +65,26 @@ AI-assisted triage tool for Wazuh SIEM alerts, using local Retrieval-Augmented G
 
 ---
 # [Active Directory Attack & Detection Lab](https://github.com/ananthancyber/Project-03-AD-Attack-Detection-Lab)
+**Windows Server 2022 · Active Directory · Wazuh SIEM · Sysmon · MITRE ATT&CK**
 
+A self-built, isolated AD lab (Windows Server 2022 DC, Windows 10 endpoint, Kali Linux, Ubuntu/Wazuh) used to run seven controlled attack scenarios end-to-end — from execution through Windows telemetry, detection logic, and SOC-style investigation reporting.
 
-**A 12-day, end-to-end Active Directory security lab — attack simulation, Windows telemetry, Wazuh detection, and SOC investigation, built solo in an isolated VMware environment.**
+**What I did:**
+- Deployed and hardened a functional Active Directory domain (`CORP.LOCAL`) with a Windows 10 domain-joined endpoint, configured Windows Security auditing and Sysmon, and forwarded telemetry into a Wazuh SIEM.
+- Simulated and investigated seven credential-access and lateral-movement techniques: Kerberoasting, AS-REP Roasting, unexpected-source NTLM, Pass-the-Hash, DCSync, BloodHound-based attack-path analysis, and SMB lateral authentication.
+- Built behavioral detection logic around Windows Security Events (`4624`, `4662`, `4768`, `4769`, `4776`) — distinguishing legitimate activity from attack indicators using baseline deviation rather than static signatures.
+- Validated select detections against live and synthetic telemetry using `wazuh-logtest`, and mapped every scenario to MITRE ATT&CK (T1558.003, T1558.004, T1550.002, T1003.006, T1078, T1021.002, T1069.002, T1087.002).
+- Used BloodHound to map a real privilege-escalation path (`bh_enum → Helpdesk-Tier1 → IT-Admins → Domain Admins`), then removed the misconfiguration and re-validated that the path no longer existed.
+- Documented every scenario as a separate attack write-up, detection specification, and SOC investigation report — 12 days of build-to-investigation documentation with evidence screenshots throughout.
 
-I built a functioning AD domain (Windows Server 2022 DC + Windows 10 endpoint), wired it into a Wazuh SIEM with Sysmon telemetry, then simulated seven real credential-access and lateral-movement techniques from a Kali Linux attacker box — Kerberoasting, AS-REP Roasting, Pass-the-Hash, DCSync, unexpected-source NTLM authentication, SMB lateral movement, and a BloodHound-driven privilege-escalation path. For each one I analyzed the Windows Security Event telemetry it generated (`4624`, `4662`, `4768`, `4769`, `4776`), built and validated detection logic (including Wazuh rules cross-checked with `wazuh-logtest`), mapped it to MITRE ATT&CK, and wrote it up as a SOC-style investigation report with evidence.
+**Stack:** Windows Server 2022 · Windows 10 · Kali Linux · Wazuh · Sysmon · BloodHound · Impacket
+## Project Architecture
 
-For the BloodHound scenario, I also intentionally created a privilege-escalation path through nested group membership (`BH_ENUM → Helpdesk-Tier1 → IT-Admins → Domain Admins`), then removed the misconfiguration and re-validated in BloodHound that the path was gone — attack and remediation, not just attack.
-
-**Stack:** Active Directory · Windows Server 2022 · Sysmon · Wazuh SIEM · Kali Linux · BloodHound · MITRE ATT&CK
-
-**Techniques covered:** T1558.003, T1558.004, T1550.002, T1003.006, T1078, T1021.002, T1069.002, T1087.002
-
-**What it demonstrates:** attacker-to-defender reasoning across the full chain — attack execution → telemetry generation → detection logic → correlation → SOC investigation → evidence-backed reporting — not just running a tool and screenshotting the output.
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ananthancyber/Project-03-AD-Attack-Detection-Lab/main/architecture/Project-03-Architecture.png" alt="Active Directory Attack and Detection Lab Architecture">
+</p>
 
 ---
-
 ## Lab Walkthroughs
 
 - **[Hack The Box](https://github.com/ananthancyber/Hack-the-box-lab)** — enumeration methodologies, initial access, service enumeration, file transfer techniques
