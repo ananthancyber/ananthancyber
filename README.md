@@ -79,8 +79,6 @@ For the BloodHound scenario, I also intentionally created a privilege-escalation
 
 **What it demonstrates:** attacker-to-defender reasoning across the full chain — attack execution → telemetry generation → detection logic → correlation → SOC investigation → evidence-backed reporting — not just running a tool and screenshotting the output.
 
-[View the full lab on GitHub →](https://github.com/ananthancyber/Project-03-AD-Attack-Detection-Lab)
-
 ---
 
 ## Lab Walkthroughs
