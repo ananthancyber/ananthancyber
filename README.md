@@ -14,7 +14,7 @@ I build security labs to understand not only how attacks occur, but how defender
 
 ## Featured Cybersecurity Projects
 
-### 🛡️ [Active Directory Attack & Detection Lab](https://github.com/ananthancyber/Project-03-AD-Attack-Detection-Lab)
+## 🛡️ [Active Directory Attack & Detection Lab](https://github.com/ananthancyber/Project-03-AD-Attack-Detection-Lab)
 
 **Windows Server 2022 · Active Directory · Wazuh · Sysmon · BloodHound · MITRE ATT&CK**
 
@@ -34,7 +34,7 @@ End-to-end Active Directory security lab built to simulate attack activity and i
 
 ---
 
-### 🤖 [AI SOC Log Triage Assistant](https://github.com/ananthancyber/ai-soc-log-triage-assistant)
+## 🤖 [AI SOC Log Triage Assistant](https://github.com/ananthancyber/ai-soc-log-triage-assistant)
 
 **Python · Wazuh · Ollama · Qwen 2.5 · FAISS · Streamlit · pytest**
 
@@ -56,7 +56,7 @@ Local AI-assisted SOC triage pipeline designed to transform exported Wazuh alert
 
 ---
 
-### 🔍 [Wazuh Blue Team Detection Lab](https://github.com/ananthancyber/wazuh-blue-team-detection-lab)
+## 🔍 [Wazuh Blue Team Detection Lab](https://github.com/ananthancyber/wazuh-blue-team-detection-lab)
 
 **Wazuh 4.14.6 · Ubuntu · Docker · Docker Compose · Kali Linux**
 
