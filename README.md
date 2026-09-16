@@ -76,6 +76,29 @@ Blue Team home lab built to understand how security telemetry moves from endpoin
 
 ---
 
+## 🛡️ [Detection Engineering Lab](https://github.com/ananthancyber/detection-engineering-lab)
+
+**Splunk Cloud · Sigma · SPL · Windows Security Logs · Splunk Universal Forwarder · MITRE ATT&CK**
+
+Hands-on detection engineering lab focused on collecting Windows security telemetry, developing detection logic, and validating security detections from a SOC analyst perspective.
+
+### Highlights
+
+- Built a Windows-based detection engineering environment using Splunk Cloud and a Windows 10 endpoint
+- Installed and configured Splunk Universal Forwarder for Windows Security Event Log collection
+- Forwarded Windows Security telemetry to Splunk Cloud over SSL
+- Investigated Windows Security Event IDs including `4624`, `4625`, and `4688`
+- Analyzed successful logons, failed logons, and process creation events
+- Developed Splunk Processing Language (SPL) queries for security event investigation
+- Created a structured workflow for Sigma rule development and detection validation
+- Planned detection scenarios for credential access, suspicious execution, persistence, and lateral movement
+- Organized detection rules, SPL queries, validation reports, MITRE ATT&CK mapping, and technical evidence
+- Documented the complete detection engineering process through day-by-day technical reports
+
+**SOC Skills:** Splunk Cloud · Windows Event Analysis · SIEM Log Ingestion · Detection Engineering · Sigma Rules · SPL Query Development · Authentication Monitoring · Process Monitoring · Threat Detection · MITRE ATT&CK · SOC Investigation
+
+---
+
 ## Technical Focus
 
 | Area | Hands-on Experience |
