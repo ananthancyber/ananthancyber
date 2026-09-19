@@ -84,8 +84,6 @@ Hands-on detection engineering lab focused on collecting Windows security teleme
 
 **Highlights**
 - Built a Windows-based detection engineering environment using Splunk Cloud and a Windows 10 endpoint
-- Installed and configured Splunk Universal Forwarder for Windows Security Event Log collection
-- Forwarded Windows Security telemetry to Splunk Cloud over SSL
 - Investigated Windows Security Event IDs including 4624, 4625, 4688, and 4698
 - Analyzed authentication activity, failed logons, process creation, PowerShell execution, and scheduled task creation
 - Developed Splunk Processing Language (SPL) queries for security event investigation and detection
