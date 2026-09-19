@@ -82,20 +82,21 @@ Blue Team home lab built to understand how security telemetry moves from endpoin
 
 Hands-on detection engineering lab focused on collecting Windows security telemetry, developing detection logic, and validating security detections from a SOC analyst perspective.
 
-### Highlights
-
+**Highlights**
 - Built a Windows-based detection engineering environment using Splunk Cloud and a Windows 10 endpoint
 - Installed and configured Splunk Universal Forwarder for Windows Security Event Log collection
 - Forwarded Windows Security telemetry to Splunk Cloud over SSL
-- Investigated Windows Security Event IDs including `4624`, `4625`, and `4688`
-- Analyzed successful logons, failed logons, and process creation events
-- Developed Splunk Processing Language (SPL) queries for security event investigation
-- Created a structured workflow for Sigma rule development and detection validation
-- Planned detection scenarios for credential access, suspicious execution, persistence, and lateral movement
+- Investigated Windows Security Event IDs including 4624, 4625, 4688, and 4698
+- Analyzed authentication activity, failed logons, process creation, PowerShell execution, and scheduled task creation
+- Developed Splunk Processing Language (SPL) queries for security event investigation and detection
+- Created 4 Sigma detection rules covering credential access, execution, and persistence
+- Validated detections using controlled security activity and documented detection outcomes
+- Applied telemetry-driven detection engineering by selecting detection scenarios based on verified log availability
+- Mapped detection coverage to 3 MITRE ATT&CK techniques and sub-techniques
 - Organized detection rules, SPL queries, validation reports, MITRE ATT&CK mapping, and technical evidence
 - Documented the complete detection engineering process through day-by-day technical reports
 
-**SOC Skills:** Splunk Cloud · Windows Event Analysis · SIEM Log Ingestion · Detection Engineering · Sigma Rules · SPL Query Development · Authentication Monitoring · Process Monitoring · Threat Detection · MITRE ATT&CK · SOC Investigation
+**SOC Skills:** Splunk Cloud · Windows Event Analysis · SIEM Log Ingestion · Detection Engineering · Sigma Rules · SPL Query Development · Authentication Monitoring · Process Monitoring · Persistence Detection · Threat Detection · MITRE ATT&CK · SOC Investigation
 
 ---
 
