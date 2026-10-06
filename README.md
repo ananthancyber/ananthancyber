@@ -97,7 +97,32 @@ Hands-on detection engineering lab focused on collecting Windows security teleme
 **SOC Skills:** Splunk Cloud · Windows Event Analysis · SIEM Log Ingestion · Detection Engineering · Sigma Rules · SPL Query Development · Authentication Monitoring · Process Monitoring · Persistence Detection · Privilege Activity Monitoring · Windows Discovery · MITRE ATT&CK · SOC Investigation
 
 ---
+---
 
+## ☁️ [Microsoft Cloud SOC, EDR & Threat Hunting Lab](https://github.com/ananthancyber/Project-05-Microsoft-Cloud-SOC)
+
+**Microsoft Sentinel · Microsoft Defender for Endpoint · Microsoft Defender XDR · Entra ID · Log Analytics · KQL · Azure · MITRE ATT&CK**
+
+Hands-on Microsoft cloud SOC lab focused on building and operating a practical security monitoring environment covering **SIEM, EDR, identity telemetry, detection engineering, threat hunting, incident investigation, and response**.
+
+### Highlights
+
+- Built a Microsoft cloud SOC environment using **Microsoft Sentinel and Azure Log Analytics**
+- Configured a dedicated Azure resource group and centralized security workspace in **Central India**
+- Activated and configured **Microsoft Sentinel** with its trial environment
+- Onboarded a **Windows 10 endpoint to Microsoft Defender for Endpoint**
+- Verified endpoint onboarding, device visibility, health, and security telemetry availability
+- Integrated the **Microsoft Defender unified SecOps experience** for security monitoring and investigation
+- Established the telemetry architecture from **endpoint → EDR → SIEM → SOC analyst**
+- Reviewed and validated Microsoft Sentinel data connector configuration before enabling additional telemetry sources
+- Designed the lab for **controlled detection engineering and threat-hunting validation**
+- Planned KQL-based investigation workflows across **authentication, endpoint, correlation, and threat-hunting use cases**
+- Documented infrastructure, telemetry flow, validation steps, evidence, and SOC architecture using reproducible technical documentation
+- Applied **MITRE ATT&CK** as the framework for mapping future detections and investigations
+
+**SOC Skills:** Microsoft Sentinel · Microsoft Defender for Endpoint · Defender XDR · Entra ID · Log Analytics · KQL · SIEM · EDR · Detection Engineering · Threat Hunting · Incident Investigation · Security Monitoring · MITRE ATT&CK · Cloud Security
+
+---
 ## Technical Focus
 
 | Area | Hands-on Experience |
